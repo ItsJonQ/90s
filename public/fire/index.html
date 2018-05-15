@@ -1,0 +1,48 @@
+<!doctype>
+<html>
+  <head><title>🔥 Fire 🔥</title></head>
+  <style>
+    body {
+      align-items: center;
+      background-image: url('../images/elmo-fire.gif');
+      background-repeat: repeat;
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .Dhalsim {
+      width: 60%;
+    }
+    .Charizard {
+      transform: translateY(9%);
+      width: 40%;
+    }
+    .Container {
+      align-items: center;
+      display: flex;
+      position: relative;
+      z-index: 1;
+    }
+    .Overlay {
+      background: black;
+      bottom: 0;
+      left: 0;
+      opacity: 0.7;
+      position: fixed;
+      right: 0;
+      top: 0;
+      z-index: 0;
+    }
+  </style>
+  <body>
+    <div class='Container'>
+      <img src='../images/dhalsim-fire.gif' class='Dhalsim' />
+      <img src='../images/charizard.gif' class='Charizard' />
+    </div>
+    <div class='Overlay'></div>
+  </body>
+</html>

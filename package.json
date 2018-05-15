@@ -1,0 +1,15 @@
+{
+  "name": "90s",
+  "version": "0.0.1",
+  "description": "> A collection of cool 90's inspired website that I decided to make for > no reason other than 90s.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "surge ./public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Quach <hello@jonquach.com> (https://jonquach.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "surge": "0.20.1"
+  }
+}
